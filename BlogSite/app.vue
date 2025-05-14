@@ -1,7 +1,14 @@
 <template>
+<body>
+
+
   <div>
-<h1>hey</h1>
-<NuxtPage />
-<index/>
+    <NuxtRouteAnnouncer />
+   <!--  <NuxtWelcome />-->
+    <NuxtLayout> 
+      <Header/>
+      <NuxtPage/>
+    </NuxtLayout>
   </div>
+  </body>
 </template>
